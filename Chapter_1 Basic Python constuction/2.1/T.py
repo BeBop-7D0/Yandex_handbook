@@ -1,0 +1,6 @@
+N = int(input())
+M = int(input())
+K1 = int(input())
+K2 = int(input())
+print(N - ((N * (M - K1)) // (K2 - K1)), end=' ')
+print((N * (M - K1)) // (K2 - K1))

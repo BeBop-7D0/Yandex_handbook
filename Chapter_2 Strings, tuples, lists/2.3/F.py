@@ -1,0 +1,1 @@
+{elem: text.lower().count(elem) for elem in set(text.lower()) if elem.isalpha()}

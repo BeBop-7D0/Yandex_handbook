@@ -1,0 +1,10 @@
+name = input()
+prise = int(input())
+weght = int(input())
+coin = int(input())
+x = prise * weght
+print('Чек')
+print(f'{name} - {weght}кг - {prise}руб/кг')
+print(f'Итого: {prise * weght}руб')
+print(f'Внесено: {coin}руб')
+print(f'Сдача: {coin - x}руб')

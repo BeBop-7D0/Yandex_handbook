@@ -1,0 +1,1 @@
+' - '.join(str(elem) for elem in sorted(set(numbers)))

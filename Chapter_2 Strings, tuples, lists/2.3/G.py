@@ -1,0 +1,1 @@
+{elem: [elem1 for elem1 in range(1, elem + 1) if elem % elem1 == 0] for elem in numbers}
